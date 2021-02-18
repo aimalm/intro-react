@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 20px;
+  background-color: darkorange;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  background-color: cornflowerblue;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+.todo {
+  padding: 10px;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: 'Dancing Script', cursive;
+
+}
+.todo label {
+  display: flex;
+}
+.todo label p {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+.todo_btn_container{
+  display: flex;
+  justify-content: center;
 }
