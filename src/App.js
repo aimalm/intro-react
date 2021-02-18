@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import React, { useState, useRef, useEffect } from 'react';
 import TodoList from './components/TodoList';
 import { v4 as uuidv4 } from 'uuid';
